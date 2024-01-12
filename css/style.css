@@ -1,0 +1,341 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+.img1{
+    width: 576px;
+    height: 576px;
+    /* margin-top: 130px; */
+    /* margin-bottom: 72px; */
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    border-radius: 50%;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    padding-right: 5px;
+}
+.tittle{
+    display: flex;
+    align-items: center;
+}
+.name{
+    font: normal normal 900 40px/53px Roboto;
+    font-size: 40px;
+    color: black;
+}
+.para{
+    /* margin-top: 30px; */
+    /* margin-left: 190px; */
+    /* font-size: 20px; */
+    color: #3E3E3E;
+    font: normal normal 300 47px Roboto;
+
+}
+.sp1{
+    color: red;
+}
+.para2{
+    font-size: 5px;
+    color: #3E3E3E;
+    font: normal normal 300 47px Roboto;
+}
+.user{
+    max-width: 62%;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #ADADAD;
+    border: 1px solid #111010;
+    border-radius: 5px;
+    background: #ddd9d9 0% 0% no-repeat padding-box;
+}
+.pass{
+    max-width: 62%;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #ADADAD;
+    border: 1px solid #080707;
+    border-radius: 5px;
+    background: #ddd9d9 0% 0% no-repeat padding-box;
+}
+/* .login{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+
+} */
+.submit{
+    width: 138px;
+    margin-top: 20px;
+    color: white;
+    font: normal normal medium 18px/24px Roboto;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+}
+.fpass{
+    margin-left: 125px;
+}
+.passrem{
+    margin-top: 20px;
+}
+.rem{
+    color: red;
+}
+.left{
+    margin-left: 100px;
+}
+.right{
+    margin-left: 166px;
+}
+
+/* Dasheboard Page */
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.menubar{
+    margin-left: 20px;
+    width: 40px;
+}
+
+.headerlogo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-dashboard{
+    width: 30px;
+    height: 30px;
+}
+.searchIcon{
+    display: flex;
+    align-items: center;
+}
+.search{
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 15px;
+    width: 15px;
+}
+.serach-name{
+    margin-left: 8px;
+    margin-top: 25px;
+    height: 21px;
+    width: 49px;
+
+}
+.right-side{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+.notification{
+    margin-top: 18px;
+    height: 22px;
+    width: 22px;
+    margin-left: 1150px;
+}
+.profile{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.para33{
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+.select-drop{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+.side{
+    margin-right: 50px;
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+}
+.deshbord{
+    display: flex;
+    align-items: center;
+}
+
+.desh{
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+}
+.paradash{
+    margin-left: 15px;
+}
+
+.analyze{
+    display: flex;
+    align-items: center;
+}
+.inbox{
+    display: flex;
+    align-items: center;
+}
+.history{
+    display: flex;
+    align-items: center;
+}
+.User{
+    display: flex;
+    align-items: center;
+}
+.maintainence{
+    width: 0px;
+    display: flex;
+    align-items: center;
+}
+.setting{
+    display: flex;
+    align-items: center;
+}
+
+
+/* --------main content start------ */
+.main-content{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+    padding: 0;
+    margin-left: 200px;
+}
+.all-itemsss{
+    margin-right: 225px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.newproduct{
+    height: 95px;
+    width: 175px;
+    background-color: rgb(245, 241, 241);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.productimg{
+    margin-left: 18px;
+    height: 30px;
+    width: 30px;
+}
+.para-pro{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.deshlogo{
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.saletext{
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-top: 0px;
+    border-radius: 5px;
+    margin-left: 205px; 
+}
+.dataimg{
+    height: 350px;
+    margin-left: 200px;
+}
+.textline{
+    display: flex;
+}
+.wmy{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 570px;
+}
+.salesby{
+    height: 0px;
+    width: 150px;
+    text-align: left;
+    font: normal normal medium 22px/29px Roboto;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+.pie{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.radio{
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.contentimages{
+    display: flex;
+}
+
+.radio1{
+    margin-left: 10px;
+    width:20px ;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.secnd{
+    margin-left: 220px;
+    margin-right: 30px;
+}
+.radioindia{
+    margin-left: 15px;
+}
+.table{
+    width: 1450px;
+    height: 200px;
+    margin-left: 87px;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.viewall{
+    margin-top: 0px;
+    font-size: 12px;
+    margin-left: 1178px;
+}
+.invoices{
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Paid{
+    color: green;
+}
+.failed{
+    color: red;
+}
+.pending{
+    color: grey;
+}

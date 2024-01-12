@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"  crossorigin="anonymous"></script>
+
+<body>
+
+    <div class="container-fluid margin-header">
+
+        <div class="row justify-content-md-center">
+            <div class="col-1 text-right">
+
+                <label for="check" class="checkbtn-menu" onclick="openNav()">
+                    <img class="bar" src="./images/menu-bar.svg">
+                </label>
+
+            </div>
+
+            <div class="col-2">
+                <img class="logoImg" src="./images/logo.svg">
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-1">
+                        <img class="search-icon" src="./images/search-icon.svg">
+                    </div>
+                    <div class="col-11">
+                        <input type="search" class="search-nav" placeholder="Search">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-1 text-right">
+                <input class="notification-checkbox" type="checkbox" id="check-notification">
+                <label for="check-notification">
+                    <img class="notification" src="./images/notification-icon.svg">
+                </label>
+            </div>
+            <div class="col-1 text-right">
+                <img class="profile-img" src="./images/profile.png">
+            </div>
+            <div class="col-1">
+
+                <select class="profile-dropdown" name="profile-users-list" id="profile">
+                    <option value="user1">John doe</option>
+                    <option value="logout ">Logout</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- div for body of dashboard -->
+
+    <div class="containner-fluid dshbrd-body">
+        <div class="row justify-content-md-center">
+            <div class="col-sm-2 text-Left">
+                <div class="row">
+                    <div class="col-1 flex-nav navigation-itm-flex align-items-center">
+                        <img class="nav-icon" src="./images/dashboard-default.svg">
+                    </div>
+                    <div class="col-2 flex-nav navigation-itm-flex align-items-center">
+                        <a href="#">Dashboard</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 flex-nav navigation-itm-flex align-items-center">
+                        <img class="nav-icon" src="./images/graph-active.svg">
+                    </div>
+                    <div class="col-2 flex-nav navigation-itm-flex align-items-center">
+                        <a href="#">History</a>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-1 flex-nav navigation-itm-flex align-items-center">
+                        <img class="nav-icon" src="./images/inbox-default.svg">
+                    </div>
+                    <div class="col-2 flex-nav navigation-itm-flex align-items-center">
+                        <a href="#">Inbox</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 flex-nav navigation-itm-flex align-items-center">
+                        <img class="nav-icon" src="./images/clock-default.svg">
+                    </div>
+                    <div class="col-2 flex-nav navigation-itm-flex align-items-center">
+                        <a href="#">History</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 flex-nav navigation-itm-flex align-items-center">
+                        <img class="nav-icon" src="./images/user-default.svg">
+                    </div>
+                    <div class="col-2 flex-nav navigation-itm-flex align-items-center">
+                        <a href="#">Users</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 flex-nav navigation-itm-flex align-items-center">
+                        <img class="nav-icon" src="./images/maintenance-default.svg">
+                    </div>
+                    <div class="col-2 flex-nav navigation-itm-flex align-items-center">
+                        <a href="#">Maintenance</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 flex-nav navigation-itm-flex align-items-center">
+                        <img class="nav-icon" src="./images/setting-default.svg">
+                    </div>
+                    <div class="col-2 flex-nav navigation-itm-flex align-items-center">
+                        <a href="#">Settings</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-10 bg-light text-Left">
+                <div class="container-fluid margin-header">
+                    <div class="row d-flex justify-content-md-center">
+                        <div class="col text-Left">
+                            <span class=" h1">Analysis</span>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid margin-header " style="background-color: white;">
+                        <div class="row">
+
+                            <div class="col mb-3">
+                                <label class="h4">One Column</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+
+                        </div>
+                        <div class="row mb-3">
+
+                            <div class="col mb-3 dropdown">
+                                <select class="dropdown-css w-100" name="profile-users-list" id="profile">
+                                    <option value="user1">Dropdown</option>
+                                    <option value="logout ">Action2</option>
+                                </select>
+
+                            </div>
+
+                        </div>
+                        <div class="row margin-header">
+                            <div class="col  mb-3">
+
+                                <textarea class="form-control" placeholder="Multiple Line" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col mb-3">
+                                <label class="h4">Two Column</label>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="col mb-3">
+                                <p>
+                                    <input type="text" class="form-control input-placeholder" id="username" placeholder="">
+                                    <label class="label-placeholder">Username</label>
+                                </p>
+                                
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3">
+                                <input type="password" class="form-control" id="name" placeholder="Password">
+                            </div>
+                            <div class="col mb-3 dropdown">
+                                <select class="dropdown-css w-100" style="height: 100%;" name="profile-users-list"
+                                    id="profile">
+                                    <option value="user1">Dropdown</option>
+                                    <option value="logout ">Action2</option>
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col mb-3">
+                                <label class="h4">Three Column</label>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3">
+                                <input type="text" class="form-control" id="focus" placeholder="Focus">
+                            </div>
+                            <div class="col mb-3">
+                                <input type="password" class="form-control" id="pwd" placeholder="Password">
+                            </div>
+                            <div class="col mb-3">
+                                <input type="password" style="border-style: dashed;border-color: gray;"
+                                    class="form-control " id="pwd" placeholder="disabled" disabled>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col mb-3">
+                                <label class="h4">Four Column</label>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3">
+                                <input type="text" class="form-control" id="focus" placeholder="Focus">
+                            </div>
+                            <div class="col mb-3">
+                                <input type="password" class="form-control" id="pwd" placeholder="Password">
+                            </div>
+                            <div class="col mb-3">
+                                <input type="password" class="form-control" id="pwd" placeholder="disabled">
+                            </div>
+                            <div class="col mb-3 dropdown">
+                                <select class="dropdown-css w-100" style="height: 100%;" name="profile-users-list"
+                                    id="profile">
+                                    <option value="select">Select</option>
+                                    <option value="logout ">Action2</option>
+                                </select>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col mb-3">
+                                <label class="h4">Other Design element</label>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col mb-3 ">
+                                <label class="h5">File Upload</label>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row align-items-left mb-3">
+                           
+                                <button class="btn border-2 text-danger border-danger text-center rounded-pill px-2"><img class="dash-icon" src="./images/cloud-upload-icon.svg">Upload</button>
+                                                      
+                                <label for="formFile text-muted" style="font-size: smaller; color: gray;align-items: center;">No item  Selected</label>
+
+                            
+                        </div>
+
+
+                        <div class="row mb-2">
+                            <div class="col mb-2 ">
+                                <label class="h5">Radio button</label>
+                            </div>
+                        </div>
+
+                        <div class="row  mb-2">
+                            <div class="col-sm-2 mb-2 ml-3 form-check">
+                                <input type="radio" class="form-check-input" style="accent-color: #FF0000;" type="radio"
+                                    id="radio1"><span>Option 1</span>
+
+                            </div>
+                            <div class="col-sm-2 mb-2 ml-3 form-check ">
+                                <input class="form-check-input" style="accent-color: #FF0000; " type="radio" id="radio1"
+                                    checked><span>Option 2</span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col mb-2 ">
+                                <label class="h5">Checkbox</label>
+                            </div>
+                        </div>
+
+                        <div class="row  mb-3">
+                            <div class="col-sm-2 mb-3 ml-3 form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" disabled>
+                                <span>Option 1</span>
+
+                            </div>
+                            <div class="col-sm-2 mb-3 ml-3 form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                                <span>Option 2</span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col mb-2 ">
+                                <label class="h5">Snackbar</label>
+                            </div>
+                        </div>
+
+                        <div class="row  mb-3 ">
+                            <div class="col mb-3 ">
+                                <label class="btn w-100 border-2 text-danger border-danger text-left px-2 "><img
+                                        class="dash-icon mh-50" src="./images/error-icon.svg">This is error
+                                    message</label>
+
+                            </div>
+                            <div class="col mb-3 ">
+                                <label class="btn w-100 border-2 text-info border-info text-left px-2"><img
+                                        class="dash-icon" src="./images/info-icon.svg">This is info message!</label>
+
+                            </div>
+                        </div>
+
+                        <div class="row  mb-3 ">
+                            <div class="col mb-3 ">
+                                <label class="btn w-100 border-2 text-warning border-warning text-left px-2 "><img
+                                        class="dash-icon" src="./images/warning-icon.svg">This is Warning message</label>
+
+                            </div>
+                            <div class="col mb-3 ">
+                                <label class="btn w-100 border-2 text-success border-success text-left px-2"><img
+                                        class="dash-icon" src="./images/success-icon.svg">This is success message</label>
+
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col mb-2 ">
+                                <label class="h5">
+                                    Call Action
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row  mb-3   gap-5  d-flex">
+                            <div class="col mb-3 ">
+                                <button
+                                    class="btn px-4 py-2 btn-primary bg-danger bg-danger  border-danger rounded-pill">Primary</button>
+                                <button
+                                    class="btn px-4 py-2 btn-primary bg-danger bg-light text-danger  border-danger rounded-pill  px-2">Secondary</button>
+
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col mb-2 ">
+                                <label class="h5">Tabs</label>
+                            </div>
+                        </div>
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                              <button class="nav-link active" id="nav-tab1-tab" data-bs-toggle="tab" data-bs-target="#nav-tab1" type="button" role="tab" aria-controls="nav-tab1" aria-selected="true">Tab 1</button>
+                              <button class="nav-link" id="nav-tab2-tab" data-bs-toggle="tab" data-bs-target="#nav-tab2" type="button" role="tab" aria-controls="nav-tab2" aria-selected="false">Tab 2</button>
+                              <button class="nav-link" id="nav-tab3-tab" data-bs-toggle="tab" data-bs-target="#nav-tab3" type="button" role="tab" aria-controls="nav-tab3" aria-selected="false">Tab 3</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content mx-3 ml-3" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-tab1" role="tabpanel" aria-labelledby="nav-tab1-tab">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                            </div>
+                            <div class="tab-pane fade" id="nav-tab2" role="tabpanel" aria-labelledby="nav-tab2-tab">abcd</div>
+                            <div class="tab-pane fade" id="nav-tab3" role="tabpanel" aria-labelledby="nav-tab3-tab">efbb</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+
